@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PC" name="pravin.pract.project2.AppTest" tests="1" failures="0" timestamp="24 Oct 2015 15:49:05 GMT" time="0.033" errors="0">
+  <testcase name="testIfAdditionHandlesPositiveSums" time="0.02" classname="pravin.pract.project2.AppTest"/>
+</testsuite>
