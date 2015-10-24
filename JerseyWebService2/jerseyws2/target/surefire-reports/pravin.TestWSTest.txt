@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: pravin.TestWSTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.676 sec <<< FAILURE!
+testDateFunctionReturnsValidXML(pravin.TestWSTest)  Time elapsed: 0.106 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.fail(Assert.java:96)
+	at pravin.TestWSTest.testDateFunctionReturnsValidXML(TestWSTest.java:46)
