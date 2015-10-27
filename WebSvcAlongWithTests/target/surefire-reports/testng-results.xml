@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="207" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="207" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+      <class name="pkg1.OrdersTest">
+        <test-method status="PASS" signature="testOrderMenuIsNotNull()" name="testOrderMenuIsNotNull" duration-ms="3" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testOrdersAreGeneratedWithIncrementalId()" name="testOrdersAreGeneratedWithIncrementalId" duration-ms="1" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testWebServiceReturnsValue()" name="testWebServiceReturnsValue" duration-ms="1" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+        </test-method>
+      </class>
+      <class name="pkg1.AppTest">
+        <test-method status="PASS" signature="AppTest()" name="AppTest" duration-ms="169" started-at="2015-10-27T13:07:22Z" finished-at="2015-10-27T13:07:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

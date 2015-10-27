@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PC" name="pkg1.AppTest" tests="4" failures="0" timestamp="27 Oct 2015 13:07:22 GMT" time="0.207" errors="0">
+  <testcase name="AppTest" time="0.169" classname="pkg1.AppTest"/>
+  <testcase name="testOrderMenuIsNotNull" time="0.003" classname="pkg1.OrdersTest"/>
+  <testcase name="testOrdersAreGeneratedWithIncrementalId" time="0.001" classname="pkg1.OrdersTest"/>
+  <testcase name="testWebServiceReturnsValue" time="0.001" classname="pkg1.OrdersTest"/>
+</testsuite>
