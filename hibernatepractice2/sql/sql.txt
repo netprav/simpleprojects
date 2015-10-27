@@ -1,0 +1,42 @@
+mysql> desc student;
+ERROR 1146 (42S02): Table 'pravindb.student' doesn't exist
+mysql> create table STUDENT (
+    ->    id INT NOT NULL auto_increment PRIMARY KEY,
+    ->    first_name VARCHAR(30) NOT NULL,
+    ->    last_name  VARCHAR(30) NOT NULL,
+    ->    section    VARCHAR(30) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> desc students;
+ERROR 1146 (42S02): Table 'pravindb.students' doesn't exist
+mysql> desc student;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| id         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| first_name | varchar(30) | NO   |     | NULL    |                |
+| last_name  | varchar(30) | NO   |     | NULL    |                |
+| section    | varchar(30) | NO   |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+
+mysql> insert into student (first_name, last_name, section) values ('kishore', 'kumar', 'art');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student (first_name, last_name, section) values ('aish', 'chandra', 'drama');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student (first_name, last_name, section) values ('smita', 'pats', 'art');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from student;
++----+------------+-----------+---------+
+| id | first_name | last_name | section |
++----+------------+-----------+---------+
+|  1 | kishore    | kumar     | art     |
+|  2 | aish       | chandra   | drama   |
+|  3 | smita      | pats      | art     |
++----+------------+-----------+---------+
+3 rows in set (0.00 sec)
+
