@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="300" started-at="2015-11-01T15:46:22Z" finished-at="2015-11-01T15:46:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="300" started-at="2015-11-01T15:46:22Z" finished-at="2015-11-01T15:46:22Z">
+      <class name="pravin.pract.mockitopractice.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="288" started-at="2015-11-01T15:46:22Z" finished-at="2015-11-01T15:46:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
